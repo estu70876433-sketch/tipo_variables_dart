@@ -1,9 +1,18 @@
   void main() {
- 
-  int a = 15;
-  int b = 25;
+  var val1 = 10;
+  var val2 = 20;
+  var resul = val1 + val2;
+  print('La suma de $val1 y de $val2');
+  print(resul);
+
+  int lado = 5;
+
+  int formu = lado * lado;
+
+  print('El área de un cuadrado será: $formu');
+}
+
   
-  int suma = a + b;
-  
-  print('La suma de $a + $b es igual a: $suma');
-  }
+
+
+
